@@ -1,0 +1,66 @@
+% License
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,twoside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[]{graphicx}
+\graphicspath{{images/}}
+\usepackage[]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO,LE]{Thesis Title}
+\fancyfoot{}
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\fancyfoot[CO,RE]{Author Name}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{
+	{Thesis Title}\\
+	{\large Institution Name}\\
+	{\includegraphics[width=2in]{universitylogo.png}}
+}
+
+\author{Author Name}
+\date{Month Day, Year}
+
+\begin{document}
+
+\maketitle
+\chapter*{Abstract}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus nunc eu neque interdum placerat. Suspendisse vestibulum hendrerit vehicula. Etiam blandit eleifend pellentesque. Morbi in risus nec mi ultrices vehicula. Praesent porta dui non magna porttitor, et placerat arcu varius. Suspendisse a ullamcorper lectus, a porta mauris. Nulla et luctus mauris. 
+
+\chapter*{Declaration}
+I do hereby declare...
+
+\chapter*{Acknowledgments}
+I want to thank...
+
+\tableofcontents
+
+\chapter{Introduction}
+\input{chapters/introduction}
+
+\chapter{Chapter One Title}
+\input{chapters/chapter01}
+
+\chapter{Chapter Two Title}
+\input{chapters/chapter02}
+
+\chapter{Chapter Three Title}
+\input{chapters/chapter03}
+
+\chapter{Introduction}
+\input{chapters/conclusion}
+
+\appendix
+\chapter{Appendix Title}
+\input{chapters/appendix}
+
+\end{document}
