@@ -1,0 +1,88 @@
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Chapter One Title}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Chapter Subsection Title}{8}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Chapter Subsection Title}{8}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Chapter Subsection Title}{9}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Chapter Two Title}{10}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Chapter Subsection Title}{10}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Chapter Subsection Title}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Chapter Subsection Title}{11}{section.3.3}%
+\contentsline {chapter}{\numberline {4}BeagleBone Black with Heavy Vehicle Truck Cape}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Device Hardware}{12}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}BeagleBone Black}{13}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Truck Cape}{13}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Device Connections}{13}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Future Work}{13}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Device Assembly}{14}{subsection.4.1.5}%
+\contentsline {subsubsection}{PCB Assembly}{14}{section*.5}%
+\contentsline {subsubsection}{Hardware Errata}{14}{section*.6}%
+\contentsline {subsubsection}{BeagleBone Truck Cape Assembly}{14}{section*.7}%
+\contentsline {subsubsection}{Laser Etching and Cutting the Enclosure}{14}{section*.8}%
+\contentsline {subsubsection}{Deutch 9 Pin to Molex Connector for Enclosure}{14}{section*.9}%
+\contentsline {subsubsection}{Enclosure Assembly}{14}{section*.10}%
+\contentsline {section}{\numberline {4.2}Device Firmware}{14}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}BootLoader}{14}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Operating System}{14}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Future Work}{15}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Embedded Linux Operating System: Installation, Basic Use, and Configuration}{15}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Base Installation}{15}{subsection.4.3.1}%
+\contentsline {subsubsection}{Installing the Linux Image via SD Card Flasher Image}{15}{section*.11}%
+\contentsline {subsubsection}{Building and Installing Linux Kernel from Scratch}{17}{section*.12}%
+\contentsline {subsection}{\numberline {4.3.2}PC Necessary Software}{17}{subsection.4.3.2}%
+\contentsline {subsubsection}{Windows Software}{17}{section*.13}%
+\contentsline {subsubsection}{Linux Software}{17}{section*.14}%
+\contentsline {subsubsection}{Mac Software}{17}{section*.15}%
+\contentsline {subsection}{\numberline {4.3.3}Remote Connecting to the Beaglebone}{17}{subsection.4.3.3}%
+\contentsline {subsubsection}{Logging into Terminal through USB with Putty}{17}{section*.16}%
+\contentsline {subsubsection}{Logging into Terminal through USB with SSH (Linux and Mac)}{19}{section*.17}%
+\contentsline {subsection}{\numberline {4.3.4}File Transfer between Computer and BeagleBone}{19}{subsection.4.3.4}%
+\contentsline {subsubsection}{File Transfer with WinSCP}{19}{section*.18}%
+\contentsline {subsubsection}{File Transfer with FileZilla}{20}{section*.19}%
+\contentsline {subsubsection}{SCP File Transfer between Linux/Mac and BeagleBone}{21}{section*.20}%
+\contentsline {subsubsection}{Logging in through Ethernet}{21}{section*.21}%
+\contentsline {subsection}{\numberline {4.3.5}Linux Basics}{21}{subsection.4.3.5}%
+\contentsline {subsubsection}{Basic Linux Commands}{22}{section*.22}%
+\contentsline {subsection}{\numberline {4.3.6}Configuring Linux}{22}{subsection.4.3.6}%
+\contentsline {subsubsection}{Testing the System}{23}{section*.23}%
+\contentsline {subsubsection}{Version Check}{23}{section*.24}%
+\contentsline {subsubsection}{Disable Unused Hardware}{23}{section*.25}%
+\contentsline {subsubsection}{Setup Pin Multiplexing}{24}{section*.26}%
+\contentsline {subsubsection}{Network Interface Configuration}{26}{section*.27}%
+\contentsline {subsubsection}{Add Virtual CAN Drivers}{26}{section*.28}%
+\contentsline {subsubsection}{Additional Software and Drivers}{26}{section*.29}%
+\contentsline {subsubsection}{Truck Cape Projects}{26}{section*.30}%
+\contentsline {subsubsection}{J1708 Drivers}{26}{section*.31}%
+\contentsline {subsubsection}{Writing Current Linux Image to SD Card}{26}{section*.32}%
+\contentsline {section}{\numberline {4.4}CAN on BeagleBone}{26}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}CAN Channels}{26}{subsection.4.4.1}%
+\contentsline {subsubsection}{Baudrate}{27}{section*.33}%
+\contentsline {subsection}{\numberline {4.4.2}Linux CAN-Utils}{27}{subsection.4.4.2}%
+\contentsline {subsubsection}{Reading CAN Messages with CAN-Utils}{27}{section*.34}%
+\contentsline {subsubsection}{CANDump}{27}{section*.35}%
+\contentsline {subsubsection}{Using CANDump to Create CAN Logs}{28}{section*.36}%
+\contentsline {subsubsection}{Sending CAN Messages with CAN-Utils}{28}{section*.37}%
+\contentsline {subsubsection}{CANSend}{28}{section*.38}%
+\contentsline {subsubsection}{CANGen}{28}{section*.39}%
+\contentsline {subsection}{\numberline {4.4.3}SocketCAN}{29}{subsection.4.4.3}%
+\contentsline {subsubsection}{SocketCAN for Python}{29}{section*.40}%
+\contentsline {subsubsection}{Installing python-can}{29}{section*.41}%
+\contentsline {subsubsection}{Sending and Receiving CAN with python-can}{29}{section*.42}%
+\contentsline {subsubsection}{}{30}{section*.43}%
+\contentsline {subsubsection}{SocketCAN for C}{30}{section*.44}%
+\contentsline {section}{\numberline {4.5}J1708 Serial on BeagleBone}{30}{section.4.5}%
+\contentsline {section}{\numberline {4.6}PLC on BeagleBone}{30}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Development Tool Chain}{30}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Cross Compiling in C}{30}{subsection.4.7.1}%
+\contentsline {subsubsection}{C Cross Compiling in C Lion}{30}{section*.45}%
+\contentsline {subsubsection}{C Cross Compiling in Atom}{33}{section*.46}%
+\contentsline {subsubsection}{C Cross Compiling in Sublime Text}{33}{section*.47}%
+\contentsline {subsubsection}{C Cross Compiling in Visual Studio Code}{33}{section*.48}%
+\contentsline {subsection}{\numberline {4.7.2}Remote Python Environment}{33}{subsection.4.7.2}%
+\contentsline {subsubsection}{Remote Python Environment using Jupyter Notebook}{33}{section*.49}%
+\contentsline {subsubsection}{Remote Python Environment for PyCharm}{33}{section*.50}%
+\contentsline {subsubsection}{Remote Python Environment for Atom}{34}{section*.51}%
+\contentsline {subsubsection}{Remote Python Environment for Sublime Text}{34}{section*.52}%
+\contentsline {subsubsection}{Remote Python Environment for Visual Studio Code}{34}{section*.53}%
+\contentsline {section}{\numberline {4.8}Programmable Realtime Units (PRU)}{34}{section.4.8}%
+\contentsline {chapter}{\numberline {5}Introduction}{35}{chapter.5}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{36}{appendix.A}%
